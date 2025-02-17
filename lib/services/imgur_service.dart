@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 
 class ImgurService {
-  final String accessToken = "1b472b60da5b0879a470e5dd7d46326c7fe64f36"; // Thay Access Token của bạn
+  final String accessToken = "1b472b60da5b0879a470e5dd7d46326c7fe64f36"; //Access Token
 
   Future<String?> uploadImage(File imageFile) async {
     final Uri url = Uri.parse("https://api.imgur.com/3/upload");
